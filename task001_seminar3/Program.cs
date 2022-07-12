@@ -1,7 +1,11 @@
-﻿Console.Clear();
+﻿//Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-Console.Write($"Введите число: ");
-string number = Console.ReadLine();
+Console.Clear();
+
+Console.WriteLine($"Эта программа проверяет, является введенное пятизначное число палиндромом или нет. ");
+
+Console.WriteLine($"Введите число: ");
+string? number = Console.ReadLine();
 
 void Palindrom(string number)
 {
